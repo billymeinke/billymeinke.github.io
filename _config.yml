@@ -1,12 +1,10 @@
 # Site settings
-<<<<<<< HEAD
 title: Billy Meinke
 email: 
 description: "The personal website of Billy Meinke"
 twitter_username: billymeinke
 github_username: billymeinke
 baseurl: "/billymeinke.github.io"
-=======
 
 # Build settings
 markdown: kramdown
