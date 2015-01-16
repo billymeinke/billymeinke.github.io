@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+  
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Freelancer</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
-    <link rel="canonical" href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
+    <title>Billy Meinke</title>
 
-    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="/style.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,543 +29,152 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
-
-
 
     <body id="page-top" class="index">
 
-       <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">OPEN</a>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="light">Home</span></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#more">More</a>
+                    <li>
+                        <a class="page-scroll" href="#connect">Connect</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container -->
     </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/open_four_us_256.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">TAACCCT Standouts</span>
-                        <hr>
-                        <span class="skills">Profiles of exemplary workforce training programs supported by the U.S. Department of Labor TAACCCT program.</span>
+       <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Billy Meinke</h1>
+                        <h4>Where I've been and where I'm headed
+                        </h4>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-<!--
-        
-          
-        
-          
-        
-          
-        
- -->
-`
-
-    
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/airwashington_tile.png" class="img-responsive" alt="image-alt">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-2" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/airwashington_tile.png" class="img-responsive" alt="image-alt">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-3" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/airwashington_tile.png" class="img-responsive" alt="image-alt">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-6" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/airwashington_tile.png" class="img-responsive" alt="image-alt">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-4" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/airwashington_tile.png" class="img-responsive" alt="image-alt">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-5" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/airwashington_tile.png" class="img-responsive" alt="image-alt">
-                        </a>
-                    </div>
-                 <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-6" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/airwashington_tile.png" class="img-responsive" alt="image-alt">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-4" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/airwashington_tile.png" class="img-responsive" alt="image-alt">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-5" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/airwashington_tile.png" class="img-responsive" alt="image-alt">
-                        </a>
-                    </div>
-            </div>
-        </div>
-    </section>
      <!-- About Section -->
-    <section class="success" id="about">
+    <section class="about" id="about">
+    <br>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis lacus maximus diam finibus imperdiet. Duis nec dolor sit amet tellus ultricies porta. Cras mattis mauris molestie odio convallis, eu laoreet libero condimentum. Quisque porttitor sapien non bibendum aliquet. Fusce venenatis, tellus sed mattis vehicula, arcu lacus aliquet ante, a volutpat nunc tortor a massa. Ut nunc ligula, scelerisque nec eros at, ultrices suscipit augue. </p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis lacus maximus diam finibus imperdiet. Duis nec dolor sit amet tellus ultricies porta. Cras mattis mauris molestie odio convallis, eu laoreet libero condimentum. Quisque porttitor sapien non bibendum aliquet. Fusce venenatis, tellus sed mattis vehicula, arcu lacus aliquet ante, a volutpat nunc tortor a massa. Ut nunc ligula, scelerisque nec eros at, ultrices suscipit augue. </p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                </div>
+            <!-- START THE FEATURETTE -->
+
+      <div class="row featurette">
+              <div class="col lg-5 col-md-5 col-sm-5">
+          <a href="collaborate/"><img class="featurette-image img-responsive" src="img/billy-350.png" alt="Generic placeholder image"></a>
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-7">
+          <h2 class="featurette-heading">Hi! I'm Billy.
+          <br><span class="text-muted">I work on the Web.</span></h2>
+          <p class="lead">Many of the things I do take place at the intersection of free culture, science, and education. I've been involved in projects that will make education accessible to anyone, anywhere. I've also worked on projects that leverage the Web to work for science. Above all else, I help people find value in opening their processes and workflows.
+          <br>
+          </p>
+        </div>
+      </div>
+</div>
+        </div>
+<br>
+<br>
+    </section>
+	    <!-- Connect Section -->
+    <section id="connect" class="connect container content-section text-center">
+        <div class="row featurette">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Get in touch</h2>
+                <p>I'm active on the usual social media channels and can be otherwise reached at billy dot meinke at gmail dotcom.</p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/billymeinke" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.linkedin.com/in/billymeinke" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/billymeinke" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+BillyMeinke/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.flickr.com/photos/67338640@N04/" class="btn btn-default btn-lg"><i class="fa fa-flickr fa-fw"></i> <span class="network-name">Flickr</span></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
-     <!-- More Section -->
-    <section id="more">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Working OPEN</h2>
-                    <hr><br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis lacus maximus diam finibus imperdiet. Duis nec dolor sit amet tellus ultricies porta. Cras mattis mauris molestie odio convallis, eu laoreet libero condimentum. Quisque porttitor sapien non bibendum aliquet. Fusce venenatis, tellus sed mattis vehicula, arcu lacus aliquet ante, a volutpat nunc tortor a massa. Ut nunc ligula, scelerisque nec eros at, ultrices suscipit augue.<br>
-                    <hr>
-                    <br>
-                    To find out more about OPEN or about Creative Commons,<br>
-                    visit https://www.open4us.org</p><br>
-                    <img src="img/cc-logo-207.png" style="margin: 0 auto;">
-                </div>
-            </div>
-            </div>
+
+    <!--
+      <div class="page-content">
+        <div class="wrap">
+        <div class="home">
+
+  <h1>Postsss</h1>
+
+  <ul class="posts">
+    
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="/billymeinke.github.io/feed.xml">via RSS</a></p>
+
+</div>
+
         </div>
-    </section>
+      </div>
+    -->
+
         <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Design</h3>
-                        <p>
-                            
-                                Lead: Billy Meinke <br>
-		                    
-                                Writings: Hal Plotkin<br>
-                                
-                                Drawings: Giulia Forsythe<br>
-		                    
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>On the Web</h3>
-                        <ul class="list-inline">
-                            
-                            <li>
-                                <a href="http://twitter.com/jekyllrb" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-		                    
-                            <li>
-                                <a href="http://stackoverflow.com/questions/tagged/jekyll" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
-                            </li>
-		                    
-                            <li>
-                                <a href="http://bitbucket.org/jekyll" class="btn-social btn-outline"><i class="fa fa-fw fa-bitbucket"></i></a>
-                            </li>
-		                    
-                            <li>
-                                <a href="http://github.com/jekyll" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-		                    
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Made Possible</h3>
-                        <p>This work made possible through funding from the Bill & Melinda Gates Foundation.
-                        <br><img style= "margin: 0 auto;" src="img/logo-gates.png"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.                    </div>
-                </div>
-            </div>
+    <footer>
+        <div class="container text-center">
+            <p><small><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Billy Meinke</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</small></p>
         </div>
     </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-     <!-- Portfolio Modals -->
- 
-    <div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Air Washington</h2>
-                            <h3>Tacoma Community College</h3>
-                            <hr>
-                            <img src="img/portfolio/airwashington_drawing.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis lacus maximus diam finibus imperdiet. Duis nec dolor sit amet tellus ultricies porta. Cras mattis mauris molestie odio convallis, eu laoreet libero condimentum. Quisque porttitor sapien non bibendum aliquet. Fusce venenatis, tellus sed mattis vehicula, arcu lacus aliquet ante, a volutpat nunc tortor a massa. Ut nunc ligula, scelerisque nec eros at, ultrices suscipit augue. </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal-2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Air Washington</h2>
-                            <h3>Tacoma Community College</h3>
-                            <hr>
-                            <img src="img/portfolio/airwashington_drawing.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis lacus maximus diam finibus imperdiet. Duis nec dolor sit amet tellus ultricies porta. Cras mattis mauris molestie odio convallis, eu laoreet libero condimentum. Quisque porttitor sapien non bibendum aliquet. Fusce venenatis, tellus sed mattis vehicula, arcu lacus aliquet ante, a volutpat nunc tortor a massa. Ut nunc ligula, scelerisque nec eros at, ultrices suscipit augue. </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal-3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Air Washington</h2>
-                            <h3>Tacoma Community College</h3>
-                            <hr>
-                            <img src="img/portfolio/airwashington_drawing.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis lacus maximus diam finibus imperdiet. Duis nec dolor sit amet tellus ultricies porta. Cras mattis mauris molestie odio convallis, eu laoreet libero condimentum. Quisque porttitor sapien non bibendum aliquet. Fusce venenatis, tellus sed mattis vehicula, arcu lacus aliquet ante, a volutpat nunc tortor a massa. Ut nunc ligula, scelerisque nec eros at, ultrices suscipit augue. </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal-6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Air Washington</h2>
-                            <h3>Tacoma Community College</h3>
-                            <hr>
-                            <img src="img/portfolio/airwashington_drawing.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis lacus maximus diam finibus imperdiet. Duis nec dolor sit amet tellus ultricies porta. Cras mattis mauris molestie odio convallis, eu laoreet libero condimentum. Quisque porttitor sapien non bibendum aliquet. Fusce venenatis, tellus sed mattis vehicula, arcu lacus aliquet ante, a volutpat nunc tortor a massa. Ut nunc ligula, scelerisque nec eros at, ultrices suscipit augue. </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal-4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Air Washington</h2>
-                            <h3>Tacoma Community College</h3>
-                            <hr>
-                            <img src="img/portfolio/airwashington_drawing.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis lacus maximus diam finibus imperdiet. Duis nec dolor sit amet tellus ultricies porta. Cras mattis mauris molestie odio convallis, eu laoreet libero condimentum. Quisque porttitor sapien non bibendum aliquet. Fusce venenatis, tellus sed mattis vehicula, arcu lacus aliquet ante, a volutpat nunc tortor a massa. Ut nunc ligula, scelerisque nec eros at, ultrices suscipit augue. </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal-5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Air Washington</h2>
-                            <h3>Tacoma Community College</h3>
-                            <hr>
-                            <img src="img/portfolio/airwashington_drawing.png" class="img-responsive img-centered" alt="image-alt">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis lacus maximus diam finibus imperdiet. Duis nec dolor sit amet tellus ultricies porta. Cras mattis mauris molestie odio convallis, eu laoreet libero condimentum. Quisque porttitor sapien non bibendum aliquet. Fusce venenatis, tellus sed mattis vehicula, arcu lacus aliquet ante, a volutpat nunc tortor a massa. Ut nunc ligula, scelerisque nec eros at, ultrices suscipit augue. </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-     <!-- jQuery Version 1.11.0 -->
-    <script src="/js/jquery-1.11.0.js"></script>
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="/js/jquery.easing.min.js"></script>
-    <script src="/js/classie.js"></script>
-    <script src="/js/cbpAnimatedHeader.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="/js/jqBootstrapValidation.js"></script>
-    <script src="/js/contact_me.js"></script>
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="/js/freelancer.js"></script>
-
+    <script src="js/grayscale.js"></script>
 
     </body>
 </html>
