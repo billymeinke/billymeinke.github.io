@@ -139,6 +139,7 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
+    min-height: 100%;
     height: auto;
     padding: 100px 0;
     text-align: center;
@@ -176,7 +177,7 @@ img {
     padding: 100px 0;
     color: #fff;
     /* background: url(../img/giphy.gif) no-repeat bottom center scroll; */
-    background-color: #2980b9;
+    background-color: #2c3e50;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
