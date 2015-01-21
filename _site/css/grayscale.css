@@ -144,7 +144,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/stars.jpeg) no-repeat bottom center scroll;
+    background: url(../img/clouds2.jpeg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -179,7 +179,7 @@ img {
     padding: 100px 0;
     color: #fff;
     /* background: url(../img/giphy.gif) no-repeat bottom center scroll; */
-    background-color: #195F8E;
+    background-color: #2e4569;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -193,8 +193,8 @@ img {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/table.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    /* background: url(../img/table.jpg) no-repeat bottom center scroll; */
+    background-color: #2e4569;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -208,8 +208,8 @@ img {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/floor.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    background: url(../img/table.jpg) no-repeat bottom center scroll; */
+    background-color: #38AAFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
