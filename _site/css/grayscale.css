@@ -146,6 +146,7 @@ a:focus {
     color: #fff;
     background: url(../img/clouds2.jpeg) no-repeat bottom center scroll;
     background-color: #000;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -398,6 +399,11 @@ footer p {
     margin: 0;
 }
 
+.footer-dark {
+    background: #000
+    color: #fff;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
@@ -452,4 +458,11 @@ body {
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
+}
+
+/* Create center alignment class for images */
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }

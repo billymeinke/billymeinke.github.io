@@ -1,0 +1,75 @@
+---
+layout: page
+title: no title yet
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h1>Recent Posts</h1>
+        {% for post in site.posts %}
+          <div class="post-preview">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+           <h2 class="post-title">            {{ post.title }}
+            </h2>
+            </a>
+          {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+            </h3>
+            {% endif %}
+          
+        <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}
+</div>
+</div>
+
+<div class="row">
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
+</div>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+  </row>
+  <div>
+    <div class="col-md-10 col-md-offset-1">
+      <br>
+  <h2>(Older Blog Posts)</h2>
+  <p>My old weblog lives at <a href="https://billymeinke.wordpress.com">billymeinke.wordpress.com</a>. What you'll find there is a timeline of posts telling my experience exploring computer and web technology in the context of learning and education. Earlier posts were largely reviews and tutorials of technology tools, then moving into involvement with Mozilla's Open Badges microcredentialling project, with later posts reflecting on Open Education and Open Science+Data.
+  </p>
+  <a href="https://billymeinke.wordpress.com" class="btn btn-primary page-scroll">
+      Go to the old blog
+  </a>
+  <hr>
+  <br>
+  <h2>Other Written Works</h2>
+  <p>I've blogged for Creative Commons (CC), the Public Library of Science (PLOS), and the OER Research Hub. Here are links to select works on my own blog and others:
+      <br>
+          <p><a href="http://creativecommons.org/weblog/entry/37060"><em>Debrief: Sprinting to Build an Open Science Course</em></a> CC blog  |  February 2013
+              <br>
+              <a href="http://blogs.plos.org/scied/2013/02/21/guest-post-open-data-day-sprint-courses-and-hackathons/"><em>Open Data Day, Course Sprints, and Hackathons!</em></a> PLOS SciEd blog  |  February 2013
+              <br>
+              <a href="http://oerresearchhub.org/2014/03/25/oer-fellowship-lenses-on-the-landscape-of-open-education/"><em>OER Fellowship: Lenses on the Landscape of Open Education</em></a> OER Hub blog  |  March 2014
+              <br>
+              <a href="http://creativecommons.org/weblog/entry/43541"><em>MapWorks Learning combines OER and open data to protect biodiversity</em></a> CC blog  |  August 2014
+
+  </p>
+  <hr>
+</div>
+</container>
