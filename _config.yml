@@ -4,7 +4,7 @@ email:
 description: "The personal website of Billy Meinke"
 twitter_username: billymeinke
 github_username: billymeinke
-baseurl: "/billymeinke.com"
+baseurl: "/billymeinke.github.io"
 
 # Build settings
 markdown: kramdown
