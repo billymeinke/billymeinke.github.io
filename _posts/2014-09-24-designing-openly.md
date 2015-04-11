@@ -4,6 +4,7 @@ title:      "Designing openly"
 subtitle:   "Free software & conference media production"
 date:       2015-04-09 12:00:00
 author:     "Billy Meinke"
+author-img: "img/billy.png"
 header-img: "img/floral.png"
 ---
 <div class="row">

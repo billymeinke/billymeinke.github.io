@@ -12,6 +12,11 @@ layout: default-blog
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <a href="http://www.billymeinke.com">
+                        <img src="/img/billy.png" class="img-responsive img-circle" alt="Billy avatar image"></img>
+                    </a>
+                    </div>
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                 </div>
             </div>
@@ -28,6 +33,17 @@ layout: default-blog
 				{{ content }}
 
                 <hr>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                    <div class="share-page btn">
+                        Share this on &rarr; 
+                        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+                        <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+                        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
+                    </div>
+                    </div>
+                    </div>
 
                 <ul class="pager">
                     {% if page.previous.url %}

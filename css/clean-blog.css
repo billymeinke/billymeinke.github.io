@@ -395,3 +395,24 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+/* Add share-page section */
+
+.share-page {
+    text-align: center;
+    background: #808080;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+
+    a {
+        font-weight: 700;
+        color: #fff;
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+            font-weight: bold;
+        }
+    }
+}
