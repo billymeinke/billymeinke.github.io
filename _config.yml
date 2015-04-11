@@ -1,7 +1,7 @@
 # Site settings
 title: Billy Meinke
-email: 
-description: "The personal website of Billy Meinke"
+url: http://www.billymeinke.com
+description: "The personal website and blog of Billy Meinke"
 twitter_username: billymeinke
 github_username: billymeinke
 baseurl: ""
