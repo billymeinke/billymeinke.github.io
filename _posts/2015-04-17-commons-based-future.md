@@ -13,7 +13,7 @@ The following is a transcript of my [keynote talk](http://osos.sched.org/speaker
 <blockquote class="twitter-tweet" lang="en"><p>Two for two. Have experienced tears of gratitude and catharsis in <a href="https://twitter.com/billymeinke">@billymeinke</a> and <a href="https://twitter.com/ranginui">@ranginui</a> &#39;s talks. Huge thanks. <a href="https://twitter.com/hashtag/OSOS2015?src=hash">#OSOS2015</a></p>&mdash; Dave Lane (@lightweight) <a href="https://twitter.com/lightweight/status/588821078396375040">April 16, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Thanks to those folks who appreciate my talk, and encouraged me to share this transcript. Specifically, the "close your eyes" section of the talk was in demand.
+Thanks to those folks who appreciatde the talk, and encouraged me to share this transcript. Specifically, the "close your eyes" section of the talk was in demand.
 
 I hope you enjoy it.
 
