@@ -4,7 +4,7 @@ title:      "A commons-based future"
 subtitle:   "Keynote talk from Open Source // Open Society conference 2015"
 date:       2015-04-17 12:00:00
 author:     "Billy Meinke"
-header-img: "img/billy_stage.jpg"
+header-img: "img/billy_stage.JPG"
 readtime: 10
 ---
 
