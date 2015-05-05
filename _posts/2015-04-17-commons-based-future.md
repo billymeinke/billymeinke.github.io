@@ -6,6 +6,7 @@ date:       2015-04-17 12:00:00
 author:     "Billy Meinke"
 header-img: "img/billy_stage.JPG"
 readtime: 10
+comments: true
 ---
 
 The following is a transcript of my [keynote talk](http://osos.sched.org/speaker/billymienke) from the #OSOS2015 conference in Wellington, New Zealand. I did tweak the talk a bit while I was up on stage, but here's the gist of it.
