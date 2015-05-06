@@ -6,6 +6,7 @@ date:       2015-04-09 12:00:00
 author:     "Billy Meinke"
 header-img: "img/floral.png"
 readtime: 7
+comments: true
 ---
 <div class="row">
 <div class="col-md-8">

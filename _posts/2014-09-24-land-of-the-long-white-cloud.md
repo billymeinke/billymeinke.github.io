@@ -6,6 +6,7 @@ date:       2015-04-12 12:00:00
 author:     "Billy Meinke"
 header-img: "img/aotearoa_tomhall.jpg"
 readtime: 5
+comments: true
 ---
 
 # It's a pleasure
