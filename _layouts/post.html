@@ -1,5 +1,5 @@
 ---
-layout: default-blog
+layout: default
 ---
 
 <!-- Post Header -->
@@ -12,13 +12,7 @@ layout: default-blog
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                        <a href="http://www.twitter.com/billymeinke">
-                        <img src="/img/billy.png" class="img-responsive img-circle" alt="Billy avatar image"></img>
-                    </a>
-                    </div>
-                    <br>
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }} &nbsp; &bull; &nbsp;  {% if page.readtime %}{{ page.readtime}}{% endif %} min read
+                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }} &nbsp; &bull; &nbsp;  {% if page.readtime %}{{ page.readtime}} min read{% endif %}
                     </span>
                 </div>
             </div>
@@ -36,20 +30,6 @@ layout: default-blog
 
                 <hr>
 
-                <div class="row">
-                    <div class="col-lg-8">
-                    <div class="share-page btn">
-                        Share this on &rarr; 
-                        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
-                        <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
-                        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                    <p class="rss-subscribe btn">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-                </div>
-
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
@@ -62,24 +42,9 @@ layout: default-blog
                     </li>
                     {% endif %}
                 </ul>
-                <hr>
-            <div class="row">
-                {% if page.comments %}
-                <div id="disqus_thread"></div>
-                    <script type="text/javascript">
-                        /* * * CONFIGURATION VARIABLES * * */
-                        var disqus_shortname = 'billyjekyllblog';
-                        
-                        /* * * DON'T EDIT BELOW THIS LINE * * */
-                        (function() {
-                            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                        })();
-                    </script>
-                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-                    {% endif %}
-    </div>
+
+            </div>
+        </div>
     </div>
 </article>
 

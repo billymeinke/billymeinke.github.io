@@ -1,11 +1,18 @@
 # Site settings
-title: Billy Meinke
-url: http://www.billymeinke.com
+title: billymeinke.com
+header-img: img/fishes.jpeg
+email: 
 description: "The personal website and blog of Billy Meinke"
+baseurl: "/billymeinke.github.io"
+url: "http://www.billymeinke.com"
 twitter_username: billymeinke
-github_username: billymeinke
-baseurl: ""
+github_username:  billymeinke
+facebook_username: 
+linkedin_username: billymeinke
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
 permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

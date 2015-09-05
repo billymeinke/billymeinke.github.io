@@ -1,15 +1,10 @@
-# billymeinke.github.io // billymeinke.com
+##billymeinke.com
 
-This is the personal website of Billy Meinke. This site is a mashering of two Bootstrap-based Jekyll themes, with a main landing page and a blog within. It was based on the following:
+This is the personal website of Billy Meinke. It's based on the following Jekyll/Bootstrap theme from Iron Summit Media.
 
-#### [Start Bootstrap](http://startbootstrap.com/)
-* [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
-* [Clean blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll)
+###Clean Blog by Start Bootstrap - Jekyll Version
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/). Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.twitter.com/fat). Start Boostrap themes are Copyright 2014 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
+The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 
-# License
+###[View Live Demo &rarr;](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/)
 
-Code used this site is reused under an Apache license (see above).
-
-Content of this site is Copyright [**Billy Meinke**](https://billymeinke.com), and shared under a [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/).
