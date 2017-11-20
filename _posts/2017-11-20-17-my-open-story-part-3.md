@@ -6,7 +6,7 @@ date:       2017-11-20 12:00:00
 author:     "Billy Meinke"
 header-img: "img/red.jpg"
 readtime: 6
-comments: true
+comments: false
 ---
 
 <i>Note: The recent spate of sexual harassment stories in the media have triggered unpleasant memories for me. I write this from a position of privilege as a white male, but I hope that my story will will help others avoid such situations -- and give others the power to speak up when they see it.</i>
