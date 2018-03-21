@@ -2,7 +2,7 @@
 layout:     post
 title:      "Student Data Harvested by Education Publishers"
 subtitle:   "They haz more than u think"
-date:       2017-11-20 12:00:00
+date:       2018-3-21 12:00:00
 author:     "Billy Meinke"
 header-img: "img/marcin.jpg"
 readtime: 8
