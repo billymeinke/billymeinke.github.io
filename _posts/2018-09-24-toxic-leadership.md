@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "A Toxic Leadership"
-subtitle:   "Remove Ryan Merkeley from Creative Commons"
+subtitle:   "Remove Ryan Merkley from Creative Commons"
 date:       2018-09-24 12:00:00
 author:     "Billy Meinke"
 header-img: "img/pink.jpg"
