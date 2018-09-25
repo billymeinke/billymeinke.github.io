@@ -38,3 +38,7 @@ But at this time I am making a direct appeal to the Board of Directors of Creati
 We need leadership that takes seriously all reports of sexual harassment, and takes swift action not to just listen to those like me who find the courage to report such incidents, but also to immediately remove bad actors once an incident is confirmed. Ryan made an attempt at the first, failed completely at the second, and then tried to save face by calling on other leaders in the open community to turn a blind eye to my story.
 
 *Ryan needs to leave. Now.*
+
+---
+
+Edit: If you wish to sign an open letter to the Board of Creative Commons requesting a transparent investigation into Ryan's actions as CEO, please [use this form](https://goo.gl/forms/Rpl5qynMJ5uAp3pN2).
