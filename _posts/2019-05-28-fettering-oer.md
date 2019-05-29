@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "The Business of Fettering OER"
-subtitle:   "fOER & Lumen Learning's Indentity Crisis"
+subtitle:   "fOER & Lumen Learning's Identity Crisis"
 date:       2019-05-28 12:00:00
 author:     "Billy Meinke-Lau"
 header-img: "img/fence.jpg"
